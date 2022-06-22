@@ -1,26 +1,15 @@
 #!/usr/bin/python3
-"""3-square.py"""
+"""A class that defines a Square"""
 
 
 class Square:
-    """Defines a square"""
+    """Square class."""
 
     def __init__(self, size=0):
-        """
-        Creates an instance of Square
-        Args:
-            size: size of the square
-        """
-        if not isinstance(size, int):
+        """Square class initialized with size"""
+        if (isinstance(size, int) is False):
             raise TypeError("size must be an integer")
-
-        if size < 0:
+        elif size < 0:
             raise ValueError("size must be >= 0")
-
-        self.__size = size
-
-    def area(self):
-        """
-        Finds area of the square
-        """
-        return self.__size * self.__size
+        else:
+            self.__size = size
