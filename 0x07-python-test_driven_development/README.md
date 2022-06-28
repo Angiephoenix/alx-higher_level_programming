@@ -68,6 +68,7 @@ If the divisor div is not an int or float, a TypeError is raised with the messag
 If div is 0, a ZeroDivisionError is raised with the message division by zero.
 
 
+
 2. Say my name
 
 3-say_my_name.py: Python function that prints a name in the format My name is <first_name> <last_name>.
@@ -92,7 +93,7 @@ No spaces are printed at the beginning or end of each printed line.
 
 5. Max integer - Unittest
 
-tests/6-max_integer_test.py: Python class/scriptthat runs unittests for the function def max_integer(list=[]):.
+tests/6-max_integer_test.py: Python class/scriptthat runs unittests for the function def max_integer(list=[]):
 
 
 6. Matrix multiplication
